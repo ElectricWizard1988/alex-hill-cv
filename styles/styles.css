@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    color: #5a5959;
+    background-color: #F5F5F5;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 20.2vh;
+    background-color: white;
+}
+
+footer {
+    min-height: 38.2vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.img-style {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.card {
+    margin: 3vh 0;
+    margin: 0px 0px 4vh 0px;
+    background-color: #fff;
+    box-shadow: 1px 2px 4px 0px black;
+    overflow: hidden;
+    border-radius: 4px;
+    text-align: left;
+    padding: 5px;
+}
+
+/* .card:hover {
+    transform: scale(1.05);
+} */
+
+main {
+    display: block;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 5px;
+}
+
+h2, h3, h4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+section {
+    padding-bottom: 2%;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+}
+
+.link {
+    color: inherit;
+    display: inline-block;
+    height: 20px;
+    margin: 0 15px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #97e7ff;
+}
+
+.link:visited {
+    text-decoration: none;
+}
+
+.table-style {
+    width: 100%; 
+    margin-left: 0; 
+    margin-right: auto;
+    text-align: center;
+}
+
+.madcap-cert {
+    float: right;
+}
+
+.indent {
+    text-indent: 8px;
+}
+
+.sm-links {
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sm-icon:hover {
+    filter: brightness(2)
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* EMOJI CURSORS */
+
+.cursor-one:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/guitar-emoji.png'), auto;
+}
+
+.cursor-two:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/headphone-emoji.png'), auto;
+}
+
+.cursor-three:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/developer-emoji.png'), auto;
+}
+
+.cursor-four:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/gaming-emoji.png'), auto;
+}
+
+.cursor-five:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/food-emoji.png'), auto;
+}
+
+.cursor-six:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/reading-emoji.png'), auto;
+}
+
+.cursor-seven:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/fishing-emoji.png'), auto;
+}
+
+.cursor-eight:hover {
+    cursor: url('C:/Users/AlexHill/Desktop/web-projects/cv-website/images/nature-emoji.png'), auto;
+}
