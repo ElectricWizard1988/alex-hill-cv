@@ -132,33 +132,33 @@ section {
 /* EMOJI CURSORS */
 
 .cursor-one:hover {
-    cursor: url('images/guitar-emoji.png'), auto;
+    cursor: url('cv-website/images/guitar-emoji.png'), auto;
 }
 
 .cursor-two:hover {
-    cursor: url('images/headphone-emoji.png'), auto;
+    cursor: url('cv-website/images/headphone-emoji.png'), auto;
 }
 
 .cursor-three:hover {
-    cursor: url('images/developer-emoji.png'), auto;
+    cursor: url('cv-website/images/developer-emoji.png'), auto;
 }
 
 .cursor-four:hover {
-    cursor: url('images/gaming-emoji.png'), auto;
+    cursor: url('cv-website/images/gaming-emoji.png'), auto;
 }
 
 .cursor-five:hover {
-    cursor: url('images/food-emoji.png'), auto;
+    cursor: url('cv-website/images/food-emoji.png'), auto;
 }
 
 .cursor-six:hover {
-    cursor: url('images/reading-emoji.png'), auto;
+    cursor: url('cv-website/images/reading-emoji.png'), auto;
 }
 
 .cursor-seven:hover {
-    cursor: url('images/fishing-emoji.png'), auto;
+    cursor: url('cv-website/images/fishing-emoji.png'), auto;
 }
 
 .cursor-eight:hover {
-    cursor: url('images/nature-emoji.png'), auto;
+    cursor: url('cv-website/images/nature-emoji.png'), auto;
 }
