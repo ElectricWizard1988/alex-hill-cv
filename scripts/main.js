@@ -1,5 +1,5 @@
 window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 190 || document.documentElement.scrollTop > 190) {
       document.getElementById('scroll-to-top').style.display = "block";
     } else {
       document.getElementById('scroll-to-top').style.display = "none";
