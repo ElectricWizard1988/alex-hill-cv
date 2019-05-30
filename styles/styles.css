@@ -169,7 +169,7 @@ section {
     text-decoration: none;
 }
 
-/* FLEXBOX STYLE (TOOLS/TECH / HOBBIES) */
+/* FLEXBOX STYLEs*/
 
 .flex-container {
     display: flex;
@@ -193,6 +193,15 @@ section {
     border-radius: 5px;
     font-size: 80%;
     vertical-align: middle;
+}
+
+.flex-container-alt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    padding: 5px;
 }
 
 /* SCROLL TO TOP BUTTON */
