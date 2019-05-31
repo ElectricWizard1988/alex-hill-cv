@@ -112,7 +112,7 @@ p {
 
 h1 {
     font-size: 50px;
-    padding: 5px;
+    padding: 8px;
 }
 
 h2, h3, h4 {
@@ -218,6 +218,16 @@ h2, h3, h4 {
     padding: 5px;
 }
 
+.flex-container-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5px;
+}
+
 /* SCROLL TO TOP BUTTON */
 
 html {
@@ -280,20 +290,13 @@ html {
     .text-size {
         font-size: 20px;
     } 
-    
-     main {
-        width: 98%;
-    } 
+
+    main {
+        width: 99%;
+    }
 
     header {
-        min-height: 30vh;
-    } 
-
-    #scroll-to-top {
-        border-radius: 5px;
-        position: fixed; 
-        bottom: 40px; 
-        right: 90px; 
+        width: 105%;
     }
 
     .table-style {
