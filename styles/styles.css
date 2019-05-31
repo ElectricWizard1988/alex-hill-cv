@@ -16,6 +16,7 @@ main {
     width: 60%;
     margin: 0 auto;
     display: block;
+
 }
 
 header {
@@ -66,6 +67,7 @@ section {
 }
 
 .link:hover {
+    transition: all 500ms ease;
     color: #97e7ff;
 }
 
@@ -162,19 +164,7 @@ h2, h3, h4 {
     cursor: url('emoji-icons/nature-emoji.png'), auto;
 }
 
-/* DOWNLOAD CV BUTTON */
-
-.download-cv-button {
-    color: #F5F5F5;
-    position: sticky;
-    top:0;
-    margin-left: 5%;
-    background-color: #333;
-    padding: 15px;
-    border-radius: 0px 0px 20px 20px;
-}
-
-/* FLEXBOX STYLEs*/
+/* FLEXBOX STYLES*/
 
 .flex-container {
     display: flex;
@@ -215,9 +205,9 @@ html {
     scroll-behavior: smooth;
   } 
 
-#scroll-to-top {
+  #scroll-to-top {
     display: none;
-    background-color: tomato;
+    background-color: #5a5959;
     color: #F5F5F5;
     border: none;
     outline: none;
@@ -232,5 +222,35 @@ html {
 }
 
 #scroll-to-top:hover {
-    transform: scale(1.1);
+    transition: all 500ms ease;
+    color: #97e7ff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+/* DOWNLOAD CV BUTTON */
+
+.download-cv-button {
+    color: #F5F5F5;
+    position: sticky;
+    top:0;
+    margin-left: 5%;
+    background-color: #5a5959;
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.button-transition:before {
+	content:'';
+	position: absolute;
+    top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 0px;
+	background: rgba(255,255,255,0.3);
+    transition: all 500ms ease;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.button-transition:hover:before {
+	height: 100%;
 }
