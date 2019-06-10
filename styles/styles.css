@@ -133,18 +133,11 @@ h2, h3, h4 {
 }
 
 .photo {
+    vertical-align: middle;
     max-width: 140px;
     max-height: 140px;
     border-radius: 50%;
-    float: left;
-    margin: 3.5% 1% 0 0;
     filter: contrast(160%);
-    border: 1px solid #5a5959;
-}
-
-.photo:hover {
-    transform: scale(2);
-    transition: all 500ms ease;
     border: 1px solid #5a5959;
 }
 
