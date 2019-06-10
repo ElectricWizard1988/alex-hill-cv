@@ -251,6 +251,7 @@ html {
 /* DOWNLOAD CV BUTTON */
 
 .download-cv-button {
+    display: inline;
     color: #F5F5F5;
     position: sticky;
     top:0;
@@ -296,5 +297,9 @@ html {
         padding: 0;
         margin: 0;
         line-height: 110%;
+    }
+
+    .download-cv-button {
+        display: inline-block;
     }
   }
